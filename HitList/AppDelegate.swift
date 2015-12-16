@@ -17,6 +17,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        let personEntity = NSEntityDescription.entityForName("Person", inManagedObjectContext: managedObjectContext)
+//        let newPerson = NSManagedObject(entity: personEntity!, insertIntoManagedObjectContext: managedObjectContext)
+//        newPerson.setValue("Trudy Cannavan", forKey: "name")
+//        
+//        let locationEntity = NSEntityDescription.entityForName("Location", inManagedObjectContext: managedObjectContext)
+//        let newLocation = NSManagedObject(entity: locationEntity!, insertIntoManagedObjectContext: managedObjectContext)
+//        newLocation.setValue("Narrow Street", forKey: "address")
+//        newLocation.setValue(NSDate(), forKey: "date")
+//        
+//        newPerson.setValue(NSSet(object: newLocation), forKey: "locations")
+//        do {
+//            try managedObjectContext.save()
+//        } catch let error as NSError {
+//            print("Could not save \(error), \(error.userInfo)")
+//        }
+        
         return true
     }
 
